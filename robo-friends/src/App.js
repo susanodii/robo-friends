@@ -1,7 +1,7 @@
+import Cardlist from './Cardlist'
 // import Card from "./Component/Card";
 import { RobortProvider } from './Context/RobortContext'
 import SeachInput from './Component/SeachInput'
-import Cardlist from './Cardlist'
 function App() {
   return (
     <>
@@ -10,7 +10,11 @@ function App() {
           <h1 className=" f1 white pTitle">RANDOM ROBORTS APP</h1>
           <SeachInput />
         </div>
+        <div>
+
+          
         <Cardlist />
+        </div>
         {/* <Card/> */}
       </RobortProvider>
     </>
