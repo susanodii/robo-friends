@@ -15,3 +15,28 @@ body {
   font-weight: 200;
   text-shadow: 4px 4px 4px #aaa;
 }
+
+.app-footer{
+
+  text-align: center;
+  margin-top: 40px;
+  padding: 10px;
+  background-color: whitesmoke;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.push{
+ 
+  text-align: center;
+  margin: auto;
+  padding-right: 3rem;
+  /* border: 3px solid red; */
+  padding-bottom: 95rem;
+}
+
+
